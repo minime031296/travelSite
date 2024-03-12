@@ -1,0 +1,49 @@
+.form {
+    border: 1px solid black;
+    height: 350px;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.073) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    position: relative;
+    border-radius:6rem;
+  }
+
+  .register-heading {
+    text-align: center;
+
+  }
+  
+  .form input[type="email"],
+  .form input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin: 20px 45px;
+  }
+
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    color:rgba(128, 0, 128, 0.509);
+    text-decoration:underline 1.5px black;
+
+  }
+
+  .question {
+    text-align: center;
+  }
+
+  .LOGIN-LINK{
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+  
+  

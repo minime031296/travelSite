@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Ojuju:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+  
+
+}
+/*colors and styling*/
+
+:root {
+  --PrimaryColor: ;
+  --SecondaryColor:var(--SecondaryColor);
+  --gradientColor:rgb(129, 12, 238);
+  --whiteColor: ;
+  --blackColor: ;
+  --textColor:var(--textColor);
+  --whiteColorDeam:var(--whiteColorDeam);
+  --greyText:var(--greyText);
+  --inputColor:var(--inputColor);
+  --bodyColor:var(--bodyColor);
+  --cardBG:var(--whiteBGM)
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.section {
+  padding: 4rem 0 2rem; 
+}
+
+.container{
+  padding: 0 1.5rem ;
+}
+
+.icon {
+  
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.btn {
+  padding: .6rem 1.5rem;
+  background: var(--gradientColor);
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn a {
+  color: var(--whiteColor);
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: var(--SecondaryColor);
+}
+
+img, video {
+  width: 100%;
+  height: auto;
+}
+
+input {
+  font-size: 100%;
+}
+
+body {
+  background: var(--bodyColor);
+}

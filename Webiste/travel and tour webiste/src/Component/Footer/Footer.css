@@ -1,0 +1,77 @@
+:root {
+    --PrimaryColor: rgb(228, 157, 43);
+    --SecondaryColor: var(--rgb(255, 0, 208));
+    --gradientColor: rgba(127, 15, 232, 200);
+    --whiteColor: white;
+    --purpleColor: purple;
+    --textColor: rgba(255, 255, 255, 1); /* Updated to white */
+    --whiteColorDeam: rgba(255, 255, 255, 0.895);
+    --greyText: var(--greyText);
+    --inputColor: var(--inputColor);
+    --bodyColor: var(--bodyColor);
+    --cardBG: rgba(0, 0, 0, 0.785);
+}
+
+.footer_content {
+    position: relative;
+    width: 100%;
+    padding: 3rem 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.vd {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+.setcontent {
+    position: relative;
+    z-index: 1;
+    color: red; 
+    font-size: bold;
+    font-weight: 400;
+}
+
+.inputDiv {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.inputDiv input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 2px solid red;
+    border-radius: 1.5rem;
+    outline: none;
+    width: 500px;
+    color: var(--whiteColor); 
+    transform: translateY(-50%);
+}
+
+.inputDiv button {
+    background-color: white;
+    color: black;
+    transform: translateY(-70%);
+   
+    border: none;
+    border-radius: 0.5rem;
+    
+    margin-left: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px;
+}
+
+.inputDiv button:hover {
+    background-color: white;
+}
+
+.icon {
+    transform: translateX(50%);
+}

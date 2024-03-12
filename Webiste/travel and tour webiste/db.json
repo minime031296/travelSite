@@ -1,0 +1,265 @@
+{
+  "places": [
+    {
+      "name": "Golden Sands Resort",
+      "location": "Caribbean",
+      "description": "Golden Sands Resort is a luxurious beachfront paradise offering stunning ocean views, pristine sandy beaches, and world-class amenities.",
+      "activities": [
+        "Sunbathing",
+        "Swimming",
+        "Water sports",
+        "Beach volleyball"
+      ],
+      "accommodation": [
+        {
+          "type": "Luxury Resort",
+          "price_per_night": "₹22500-₹60000"
+        },
+        {
+          "type": "Beachfront Villas",
+          "price_per_night": "₹37500-₹112500"
+        },
+        {
+          "type": "Budget Hotels",
+          "price_per_night": "₹7500-₹22500"
+        }
+      ],
+      "image": "src/assets/Images_for_project/sand_resort.jpg"
+    },{
+      "name": "Majestic Mountains Lodge",
+      "location": "Rocky Mountains",
+      "description": "Nestled in the heart of the Rocky Mountains, Majestic Mountains Lodge offers cozy cabins, breathtaking mountain views, and endless outdoor adventures.",
+      "activities": [
+        "Hiking",
+        "Mountain biking",
+        "Skiing",
+        "Wildlife viewing"
+      ],
+      "accommodation": [
+        {
+          "type": "Rustic Cabins",
+          "price_per_night": "₹7500-₹22500"
+        },
+        {
+          "type": "Mountain Chalets",
+          "price_per_night": "₹15000-₹37500"
+        },
+        {
+          "type": "Luxury Mountain Lodge",
+          "price_per_night": "₹37500-₹112500"
+        }
+      ],
+      "image": "src/assets/Images_for_project/Mountain.jpg"
+    },
+    {
+      "name": "Tropical Paradise Island",
+      "location": "South Pacific",
+      "description": "Escape to Tropical Paradise Island, where palm-fringed beaches, crystal-clear waters, and lush rainforests await. It's the perfect destination for relaxation and adventure.",
+      "activities": [
+        "Snorkeling",
+        "Scuba diving",
+        "Island hopping",
+        "Zip-lining"
+      ],
+      "accommodation": [
+        {
+          "type": "Beachfront Bungalows",
+          "price_per_night": "₹15000-₹45000"
+        },
+        {
+          "type": "Resort Suites",
+          "price_per_night": "₹30000-₹75000"
+        },
+        {
+          "type": "Overwater Villas",
+          "price_per_night": "₹75000-₹225000"
+        }
+      ],
+      "image": "src/assets/Images_for_project/Tropical.jpg"
+    },
+    {
+      "name": "Historic City Center",
+      "location": "Europe",
+      "description": "Immerse yourself in the rich history and culture of the Historic City Center, where ancient landmarks, charming cobblestone streets, and lively markets await.",
+      "activities": [
+        "Sightseeing",
+        "Museum tours",
+        "Cultural events",
+        "Culinary tours"
+      ],
+      "accommodation": [
+        {
+          "type": "Boutique Hotels",
+          "price_per_night": "₹7500-₹22500"
+        },
+        {
+          "type": "Historic Inns",
+          "price_per_night": "₹15000-₹37500"
+        },
+        {
+          "type": "Luxury Apartments",
+          "price_per_night": "₹22500-₹60000"
+        }
+      ],
+      "image": "src/assets/Images_for_project/historic.jpg"
+    },
+    {
+      "name": "Tropical Rainforest Retreat",
+      "location": "South America",
+      "description": "Discover the wonders of the Tropical Rainforest Retreat, where lush jungles, cascading waterfalls, and diverse wildlife await. It's an eco-adventure like no other.",
+      "activities": [
+        "Hiking",
+        "Birdwatching",
+        "Canopy tours",
+        "Wildlife photography"
+      ],
+      "accommodation": [
+        {
+          "type": "Eco-Lodges",
+          "price_per_night": "₹7500-₹22500"
+        },
+        {
+          "type": "Treehouse Cabins",
+          "price_per_night": "₹15000-₹37500"
+        },
+        {
+          "type": "Luxury Rainforest Resorts",
+          "price_per_night": "₹37500-₹112500"
+        }
+      ],
+      "image": "src/assets/Images_for_project/Tropical_rainforest.jpg"
+    },
+    {
+      "name": "Desert Oasis",
+      "location": "Middle East",
+      "description": "Escape to the serene beauty of the Desert Oasis, where endless sand dunes, starry skies, and traditional Bedouin hospitality await. It's a journey into the heart of the desert.",
+      "activities": [
+        "Camel trekking",
+        "Desert safaris",
+        "Star-gazing",
+        "Cultural experiences"
+      ],
+      "accommodation": [
+        {
+          "type": "Bedouin Camps",
+          "price_per_night": "₹7500-₹22500"
+        },
+        {
+          "type": "Luxury Desert Resorts",
+          "price_per_night": "₹22500-₹60000"
+        },
+        {
+          "type": "Tented Camps",
+          "price_per_night": "₹15000-₹37500"
+        }
+      ],
+      "image":"src/assets/Images_for_project/Desert_oasis.jpg"
+    },
+    {
+      "name": "Coastal Paradise",
+      "location": "Australia",
+      "description": "Experience the beauty of Coastal Paradise, where pristine beaches, turquoise waters, and vibrant marine life await. It's the perfect destination for sun-seekers and water sports enthusiasts.",
+      "activities": [
+        "Surfing",
+        "Snorkeling",
+        "Dolphin watching",
+        "Beach picnics"
+      ],
+      "accommodation": [
+        {
+          "type": "Beachfront Resorts",
+          "price_per_night": "₹15000-₹45000"
+        },
+        {
+          "type": "Luxury Beach Houses",
+          "price_per_night": "₹37500-₹112500"
+        },
+        {
+          "type": "Budget Motels",
+          "price_per_night": "₹7500-₹22500"
+        }
+      ],
+      "image": "src/assets/Images_for_project/Australia.jpg"
+    },
+    {
+      "name": "Mystical Temples",
+      "location": "Asia",
+      "description": "Explore the Mystical Temples, where ancient ruins, ornate shrines, and sacred rituals await. It's a spiritual journey through centuries of history and tradition.",
+      "activities": [
+        "Temple tours",
+        "Meditation retreats",
+        "Cultural ceremonies",
+        "Traditional performances"
+      ],
+      "accommodation": [
+        {
+          "type": "Boutique Guesthouses",
+          "price_per_night": "₹7500-₹22500"
+        },
+        {
+          "type": "Luxury Resorts",
+          "price_per_night": "₹22500-₹60000"
+        },
+        {
+          "type": "Budget Hostels",
+          "price_per_night": "₹3750-₹11250"
+        }
+      ],
+      "image": "src/assets/Images_for_project/mystic_temple.jpg"
+    },
+    {
+      "name": "Alpine Wonderland",
+      "location": "Switzerland",
+      "description": "Discover the magic of the Alpine Wonderland, where snow-capped peaks, picturesque villages, and world-class ski resorts await. It's a winter wonderland like no other.",
+      "activities": [
+        "Skiing",
+        "Snowboarding",
+        "Snowshoeing",
+        "Après-ski"
+      ],
+      "accommodation": [
+        {
+          "type": "Ski Chalets",
+          "price_per_night": "₹15000-₹45000"
+        },
+        {
+          "type": "Mountain Resorts",
+          "price_per_night": "₹30000-₹75000"
+        },
+        {
+          "type": "Luxury Alpine Hotels",
+          "price_per_night": "₹37500-₹112500"
+        }
+      ],
+      "image": "src/assets/Images_for_project/alpine_wonderland.jpg"
+    },
+    {
+      "name": "Island Paradise",
+      "location": "Indian Ocean",
+      "description": "Escape to Island Paradise, where secluded beaches, turquoise lagoons, and swaying palm trees await. It's a tropical paradise straight out of a postcard.",
+      "activities": [
+        "Snorkeling",
+        "Scuba diving",
+        "Island hopping",
+        "Relaxing on the beach"
+      ],
+      "accommodation": [
+        {
+          "type": "Beachfront Resorts",
+          "price_per_night": "₹15000-₹45000"
+        },
+        {
+          "type": "Overwater Bungalows",
+          "price_per_night": "₹37500-₹112500"
+        },
+        {
+          "type": "Luxury Villas",
+          "price_per_night": "₹75000-₹225000"
+        }
+      ],
+      "image": "src/assets/Images_for_project/island_paradise.jpg"
+    }
+  ]
+  
+}
+  

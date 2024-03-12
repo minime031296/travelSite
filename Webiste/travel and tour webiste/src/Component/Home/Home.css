@@ -1,0 +1,194 @@
+:root {
+    --PrimaryColor: rgb(228, 157, 43);
+    --SecondaryColor:var(--SecondaryColor);
+    --gradientColor:rgba(127, 15, 232 , 200);
+    --whiteColor: ;
+    --purpleColor:  purple;
+    --textColor:rgba(228, 58, 240, 0.893);
+    --whiteColorDeam: rgba(255, 255, 255, 0.895);
+    --greyText:var(--greyText);
+    --inputColor:var(--inputColor);
+    --bodyColor:var(--bodyColor);
+    --cardBG:var(--whiteBGM);
+    --blackColor: black; 
+  }
+
+  .home {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.homecontent {
+    z-index: 2; 
+    color: purple;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.textDiv {
+    text-align: center;
+}
+
+.smalltext {
+    font-size: 14px;
+    color: var(--blackColor); 
+    text-align: center; 
+}
+
+.homeTitle {
+    font-style: italic;
+}
+
+.destination-input {
+    padding: 1.5rem;
+}
+
+.city-input {
+    display: flex;
+    align-items: center;
+}
+
+.city-input input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.icon {
+    font-size: 24px;
+    color: var(--PrimaryColor); 
+    transform: translateX(-145%);
+}
+
+.date-input, .price-input {
+    padding: 1.5rem;
+}
+
+.price-input input[type="range"] {
+    width: 50%;
+    accent-color: var(--purpleColor)
+}
+.vdo {
+    width: 100%;
+    object-fit: fill;
+}
+
+@media screen and (min-width: 1240px) {
+   
+    .home {
+        width: 100%;
+        position: relative; /* Change from absolute to relative */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    
+    .homecontent {
+        z-index: 2; 
+        color: purple;
+        padding: 2rem;
+        background-color: rgba(255, 255, 255, 0.9); 
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .textDiv {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+    }
+    
+    .smalltext {
+        font-size: 14px;
+        color: var(--blackColor); 
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .homeTitle {
+        font-style: italic;
+    }
+
+    
+    .destination-input {
+        padding: 1.5rem;
+        text-align: center;
+    }
+    
+    .destination-input label,
+    .city-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .city-input input[type="text"] {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-right: 10px;
+        text-align: center;
+       
+    }
+    
+    .icon {
+        font-size: 24px;
+        color: var(--PrimaryColor); 
+        margin-left: 0;
+    }
+    
+    .date-input, .price-input {
+        padding: 1.5rem;
+        
+        text-align: center;
+    }
+    
+    .price-input input[type="range"] {
+       
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        accent-color: var(--purpleColor);
+        width: 15%; 
+        margin: 0 auto;
+    }
+
+    .vdo {
+        width: 100%;
+        object-fit: fill;
+    }
+    
+}

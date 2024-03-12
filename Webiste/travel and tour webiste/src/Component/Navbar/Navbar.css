@@ -1,0 +1,193 @@
+:root {
+    --PrimaryColor: rgb(228, 157, 43);
+    --SecondaryColor:var(--SecondaryColor);
+    --gradientColor:rgba(127, 15, 232 , 200);
+    --whiteColor: ;
+    --purpleColor:  purple;
+    --textColor:rgba(228, 58, 240, 0.893);
+    --whiteColorDeam: rgba(255, 255, 255, 0.895);
+    --greyText:var(--greyText);
+    --inputColor:var(--inputColor);
+    --bodyColor:var(--bodyColor);
+    --cardBG:var(--whiteBGM)
+  }
+
+.Header {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--whiteColorDeam);
+    width: 100%;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    padding: 1rem;
+    z-index: 1000; 
+
+
+    .loGo{
+        color: var(--purpleColor);
+        font-weight: 600;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    @media  screen and (max-width: 768px) {
+        .NavBar {
+            position: absolute;
+            background: var(--whiteColorDeam);
+            height: max-content;
+            width: 80%;
+            border-radius: 1rem;
+            top: -500rem;
+            left: 50%;
+            transform: translate(-50%);
+            z-index: 2000;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.886);
+            transition: .1s ease-in-out
+        }
+
+        .activateNavBar {
+            top: 7rem;
+        }
+
+        .toggleNavbar {
+            .icon{
+                font-size: 25px;
+                color:rgba(17, 17, 26, 0.1)
+            }
+        }
+
+        .navLists {
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            margin: auto;
+            padding: .5rem 0;
+
+            .navbarItem {
+                padding: .5rem 0;
+            }
+            
+            .navbarLink {
+                color: purple;
+                font-size: .89rem;
+            }
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+            
+
+            a {
+                font-weight: bold;
+                
+            }
+        }
+
+        .NavBarClosing {
+            position: absolute;
+            top: 1rem;
+            left: 1.5rem;
+            color: var(--PrimaryColor);
+        }
+    }
+
+}
+
+.userProfile{
+    position: relative;
+    display: inline-block
+}
+.userProfile:hover button {
+    display: block;
+}
+.userProfile button {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: blanchedalmond;
+    border: 1px solid #ccc;
+    padding: 5px;
+    z-index: 1;
+}
+
+.userProfile button:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+@media screen and (min-width: 769px ){
+    .NavBarClosing,.toggleNavbar{
+        display: none
+    }
+    .Header {
+        padding: 1.5rem 2rem; 
+    }
+}
+
+@media screen and (min-width: 960px) {
+
+}
+
+
+@media screen and (min-width: 1240px) {
+    .Header{
+        padding: 1rem 8.5rem;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navbarItem {
+        display: flex;
+       align-items: center;
+       margin-right: 20px
+        
+    }
+
+    .navbarLink {
+        
+        display: flex;
+        flex-direction: row;
+    }
+
+    .loGo {
+        margin-right: auto; 
+        display: flex; 
+        align-items: center; 
+        justify-content: flex-start;
+    }
+    
+    .loGo h1 {
+        margin: 0; 
+        font-size: xx-large;
+    }
+    
+    
+    
+    .navLists {
+        display: flex; 
+        align-items: center; 
+        justify-content: flex-end; 
+        margin: auto;
+        padding: .5rem 0;
+    }
+    
+    .navbarItem {
+        margin-right: 20px;
+        list-style: none; /* Remove bullet points */
+    }
+    
+    .navbarLink {
+        color: purple;
+        font-size: .89rem;
+        text-decoration: none; /* Remove underline from links */
+    }
+    
+    .loGo {
+        margin-right: 20px; /* Adjust margin for the logo */
+    }
+    
+}
